@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nuestra Boda | F&amp;M</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Moises Santos">
+    <meta property="og:title" content="Nuestra Boda F&amp;M">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Page-Enter" content="blendTrans(duration=1)">
+    <link href="css/css" rel="stylesheet" type="text/css">
+    <link href="css/css(1)" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" id="widcss-css" href="css/wedding-invitation-design.css" media="all">
+    <script src="css/jquery.min.js.descarga" id="jquery-core-js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style_Boda_CyA.css">
+    <script src="css/modernizr-2.6.2.min.js.descarga"></script>
+    <link href="css/style_box.css" rel="stylesheet">
+    <script src="css/cute-alert.js.descarga"></script>
+
+    <style>
+        .modalDialog {
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 99999;
+            opacity: 0;
+            -webkit-transition: opacity 400ms ease-in;
+            -moz-transition: opacity 400ms ease-in;
+            transition: opacity 400ms ease-in;
+            pointer-events: none;
+        }
+
+            .modalDialog:target {
+                opacity: 1;
+                pointer-events: auto;
+            }
+
+            .modalDialog > div {
+                width: 320px;
+                height: 80vh;
+                position: relative;
+                margin: 30px auto;
+                padding: 5px 20px 13px 20px;
+                border-radius: 10px;
+                background: #fff;
+            }
+
+            .modalDialog h1 {
+                border-bottom: 1px dashed #7F7F7F;
+                margin: -20px -20px 0px -20px;
+                padding: 10px;
+                background-color: #9a8147;
+                color: #fff;
+                -moz-border-radius: 20px 20px 0px 0px;
+                -webkit-border-top-left-radius: 20px;
+                -webkit-border-top-right-radius: 20px;
+                -khtml-border-top-left-radius: 20px;
+                -khtml-border-top-right-radius: 20px;
+            }
+
+        .close {
+            background: #b52e2b;
+            color: #FFFFFF;
+            line-height: 25px;
+            position: absolute;
+            right: -10px;
+            text-align: center;
+            top: -20px;
+            width: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+            -moz-box-shadow: 1px 1px 3px #575757;
+            -webkit-box-shadow: 1px 1px 3px #575757;
+            box-shadow: 1px 1px 3px #575757;
+            opacity: 0.6;
+        }
+
+            .close:hover, .close:visited, .close:active {
+                background: #b52e2b;
+                color: #FFFFFF;
+                opacity: 0.9;
+            }
+
+        .scroll::-webkit-scrollbar {
+            width: 12px; /* width of the entire scrollbar */
+        }
+
+        .scroll::-webkit-scrollbar-thumb {
+            background-color: #9a8147; /* color of the scroll thumb */
+            border-radius: 20px; /* roundness of the scroll thumb */
+            border: 3px solid #fff; /* creates padding around scroll thumb */
+        }
+        /* .fh5co-nav-toggle
+        {
+            display:none;
+        }*/
+        .parrallax {
+            background: #fff fixed no-repeat 50% 50%;
+            background-size: cover;
+        }
+
+        .e-gallery-masonry .e-gallery-image {
+            border-radius: 15px;
+        }
+
+        .btn-default {
+            color: #fff;
+            background-color: #773a1e;
+            border-color: #d8c581;
+        }
+    </style>
+    <script>
+        function load_func() {
+            jQuery("#WID_catanis-loader").delay(200).fadeOut("slow");
+        }
+        var pageLoaded = false;
+        var timeoutElapsed = false;
+
+        jQuery(window).on("load", function () {
+            pageLoaded = true;
+            if (timeoutElapsed) {
+                load_func();
+            }
+        });
+
+        setTimeout(function () {
+            timeoutElapsed = true;
+            if (pageLoaded) {
+                load_func();
+            }
+        }, 400);
+
+    </script>
+
+    <link rel="stylesheet" id="jet-elements-css" href="css/jet-elements.css" type="text/css" media="all">
+    <link rel="stylesheet" id="jet-elements-skin-css" href="css/jet-elements-skin.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="css/frontend.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-7-css" href="css/post-7.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-pro-css" href="css/frontend(1).min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-8746-css" href="css/post-8746.css" type="text/css" media="all">
+    <script type="text/javascript" src="css/jquery.min(1).js.descarga" id="jquery-core-js"></script>
+    <style>
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item.is--active .timeline-item__card-inner {
+            background-color: #994c38;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item.is--active .timeline-item__card-arrow {
+            background-color: #994c38;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline__line-progress {
+            background-color: #994c38;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item.is--active .timeline-item__point-content {
+            color: #2d3145;
+            background-color: #FFFFFF;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item.is--active .timeline-item__card-title {
+            color: #FFFFFF;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item .timeline-item__card-inner {
+            background-color: #686868;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item .timeline-item__card-arrow {
+            background-color: #686868;
+            width: 20px;
+            height: 20px;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline__line {
+            background-color: #686868;
+            width: 2px;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .timeline-item__point-content {
+            height: 40px;
+            width: 40px;
+            color: #FFFFFF;
+            background-color: #686868;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item .timeline-item__card-desc {
+            font-family: "Montserrat", Sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #686868;
+        }
+
+        .elementor-8746 .elementor-element.elementor-element-3178fbe8 .jet-timeline-item.is--active .timeline-item__point-content {
+            color: #fff;
+            background-color: #994c38;
+        }
+
+        .fh5co-nav ul li a {
+            font-size: 14px;
+            padding: 30px 10px;
+            text-transform: uppercase;
+            color: #fff;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+        }
+
+            .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
+                color: #fff;
+                font-weight: bold;
+            }
+
+        .fh5co-nav-toggle.fh5co-nav-white > i {
+            color: #fff;
+            background: #fff;
+        }
+
+            .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
+                background: #fff;
+            }
+
+
+
+        :root {
+            --white: #e8e9ed;
+            --gray: #434257;
+            --blue: #18172c;
+            --green: #00d084;
+            --pink: #ff4b77;
+        }
+
+        ol {
+            list-style: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            ol {
+                list-style: decimal;
+            }
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        [type="checkbox"] {
+            position: absolute;
+            left: -9999px;
+        }
+
+
+
+        .switches {
+            max-width: 500px;
+            width: 100%;
+            margin: 0px auto 0;
+            border-radius: 5px;
+            color: #000;
+            background: #fff;
+        }
+
+            .switches li {
+                position: relative;
+                counter-increment: switchCounter;
+            }
+
+                .switches li:not(:last-child) {
+                    border-bottom: 1px solid #ccc;
+                }
+
+                .switches li::before {
+                    content: counter(switchCounter);
+                    position: absolute;
+                    top: 50%;
+                    left: -30px;
+                    transform: translateY(-50%);
+                    font-size: 2rem;
+                    font-weight: bold;
+                    color: var(--pink);
+                }
+
+            .switches label {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px;
+            }
+
+            .switches span:last-child {
+                position: relative;
+                width: 50px;
+                height: 26px;
+                border-radius: 15px;
+                box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+                background: #cd4141;
+                transition: all 0.3s;
+            }
+
+                .switches span:last-child::before,
+                .switches span:last-child::after {
+                    content: "";
+                    position: absolute;
+                }
+
+                .switches span:last-child::before {
+                    left: 1px;
+                    top: 1px;
+                    width: 24px;
+                    height: 24px;
+                    background: var(--white);
+                    border-radius: 50%;
+                    z-index: 1;
+                    transition: transform 0.3s;
+                }
+
+                .switches span:last-child::after {
+                    top: 50%;
+                    right: 8px;
+                    width: 12px;
+                    height: 12px;
+                    transform: translateY(-50%);
+                    color: #fff !important;
+                    background: url(../../images/utilerias/uncheck-switcher.svg);
+                    background-size: 12px 12px;
+                }
+
+            .switches [type="checkbox"]:checked + label span:last-child {
+                background: var(--green);
+            }
+
+                .switches [type="checkbox"]:checked + label span:last-child::before {
+                    transform: translateX(24px);
+                }
+
+                .switches [type="checkbox"]:checked + label span:last-child::after {
+                    width: 14px;
+                    height: 14px;
+                    /*right: auto;*/
+                    left: 8px;
+                    background-image: url(../../images/utilerias/checkmark-switcher.svg);
+                    background-size: 14px 14px;
+                }
+
+        @media screen and (max-width: 600px) {
+            .switches li::before {
+                display: none;
+            }
+        }
+
+
+        .cuenta a {
+            color: #fff;
+        }
+    </style>
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body class="para_boda-template para_boda-template-elementor_canvas single single-para_boda elementor-dce elementor-default elementor-template-canvas elementor-kit-7 elementor-page" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <script>
+        function alertsuccess(ids, cadenaConf) {
+            var evento = $("#evento").val();
+            //alert("cadena ids: "+ids);
+            //alert("cadena confirmación: " + cadenaConf);
+            if (ids[ids.length - 1] == ",") {
+                ids = ids.substring(0, ids.length - 1);
+                //alert(ids);
+            }
+            var guardaID = ids.split(",");
+            var guardaCad = cadenaConf.split(",");
+            var cont = 0;
+            for (const id in guardaID) {
+                cont += 1;
+                //alert("Evento: " + evento + "ID: " + guardaID[id] + " Confirma: " + guardaCad[id]);
+                var url = '/Boda_CyA/Confirmacion?idEvento=' + evento + '&idInv=' + guardaID[id]  + '&asistencia=' + guardaCad[id];
+            $.ajax({
+                type: "POST",
+                url: url,
+                success: function (tabla) {
+                }
+            });
+            }
+            cuteAlert({
+                type: "success",
+                title: "Confirmación completa",
+                message: "<p>Hemos recibido tu confirmación. </p><p><b>¡Gracias por tu aportación, nos vemos pronto.!<br><br>",
+                buttonText: "<i class='icon-thumbs-up' style='font-size:24px;'></i> Hecho"
+            }).then((e) => {
+
+                if (e == "ok") {
+                     window.location.href = '/Boda_CyA?ancla=7';
+                }
+            })
+        }
+        function confirmacion() {
+            var label = "";
+            var idlabel = "";
+            var lista = "";
+            var ids = "";
+            var mensaje = "";
+            var cadenaConf = "";
+            //alert($("#evento").val());
+            $("input[type=checkbox]").each(function () {
+                //cada elemento seleccionado
+                if (label == "") {
+                    label = $("#" + $(this).val()).text();
+                    label = label.split(" ", 1);
+                    idlabel = $(this).val();
+                }
+                if ($(this).is(":checked")) {
+
+                    ids = ids + $(this).val() + ",";
+                    lista = lista + "<i class='icon icon-check' style='color:#12b112'></i> " + $("#" + $(this).val()).text() + "<br>";
+                    cadenaConf = cadenaConf + "SI,";
+                    //alert($(this).val());
+                    //alert($("#" + $(this).val()).text());
+                }
+                else {
+                    ids = ids + $(this).val() + ",";
+                    lista = lista + "<i class='icon icon-minus2' style='color:#c32323'></i> " + $("#" + $(this).val()).text() + "<br>";
+                    cadenaConf = cadenaConf + "NO,";
+                }
+            });
+            cuteAlert({
+                type: "question",
+                title: label + ", estas por confirmar a:<br>",
+                message: lista + "</br><i>Deja un mensaje a los novios:</i></b></br><textarea id='mensaje' name='mensaje' rows='5' cols='38' placeholder='Escribe tu mensaje...'></textarea><input id='idlabel' name='idlabel' type='hidden' value='" + idlabel + "'>",
+                confirmText: "Confirmar",
+                cancelText: "Cancelar"
+            }).then((e) => {
+                if (e == "confirm") {
+                    alertsuccess(ids,cadenaConf);
+                }
+            })
+        }
+          var ancla = "#";
+                    if (ancla != "") {
+                        window.location.hash = ancla;
+                    }
+        function GuardaMensaje() {
+            var mensaje = $("#mensaje").val();
+            var idlabel = $("#idlabel").val();
+            var evento = $("#evento").val();
+            //alert("No. evento (guardamensaje): " +evento);
+            var url = '/Boda_CyA/GuardaMensaje?idEvento=' + evento + '&idInv=' + idlabel + '&mensaje=' + mensaje;
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                success: function (tabla) {
+                    //alert("idlabel mensaje: " + idlabel);
+                    //alert("mensaje : " + mensaje);
+                }
+            });
+        }
+
+                    function GetLista()
+                    {
+                        var code = $("#code").val();
+                        if (code != "") {
+                        var url = '/Boda_CyA/GetLista?code='+code ;
+                            $.ajax({
+                                type: "POST",
+                                url: url,
+                                success: function (tabla) {
+
+                                    if (tabla == "0") {
+
+                                        cuteAlert({
+                                            type: "warning",
+                                            title: "¡Espera!",
+                                            message: "No tenemos registrado ningún código de invitación como lo proporcionaste, por favor verifica el código correcto para realizar tu confirmación.",
+                                            confirmText: "Entendido"
+                                        })
+                                    }
+                                    else {
+                                        if (tabla == "ADM") {
+                                            window.location.href = '/Boda_CyA/Admin';
+                                        }
+                                        else if (tabla == "HOST") {
+                                            window.location.href = '/Boda_CyA/Hostess';
+
+                                        }
+                                        else {
+
+                                            var array = tabla.split("|");
+                                            $("#evento").val(array[0]);
+                                            document.getElementById("Registro").innerHTML = "";
+                                            document.getElementById("Registro").innerHTML = array[1];
+                                            $("#btnConfirm").attr("onclick", "confirmacion()");
+                                            $("#btnConfirm").text("Confirmar");
+                                            window.location.hash = "openModal";
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    }
+                    function GetPases()
+                    {
+                        var code = $("#code").val();
+                        if (code != "") {
+                        var url = '/Boda_CyA/GeneraPases?code='+code ;
+                            $.ajax({
+                                type: "POST",
+                                url: url,
+                                success: function (pases) {
+                                    //alert(pases);
+                                    if (pases != "") {
+                                             if (pases == "ADM") {
+                                            window.location.href = '/Boda_CyA/Admin';
+                                        }
+                                        else if (pases == "HOST") {
+                                            window.location.href = '/Boda_CyA/Hostess';
+
+                                        }
+                                        else {
+                                            window.location.href = '/Boda_CyA?ancla=7';
+                                        }
+                                    }
+                                    else {
+                                        cuteAlert({
+                                            type: "warning",
+                                            title: "¡Importante!",
+                                            message: "No se han registrado ninguna confirmación con este código de invitación. Probablemente te hace falta cofirmar la asistencia o escribir correctamente el código de invitación",
+                                            confirmText: "OK"
+                                        }).then((e) => {
+                                        if (e == "ok") {
+                                             window.location.href = '/Boda_CyA?ancla=6';
+                                        }
+                                    })
+                                    }
+                                }
+                            });
+                        }
+                    }
+                    function validar(tipo) {
+                            var code = $("#code").val();
+                        if (code != "") {
+
+                            if (tipo == "0") {
+                                GetLista();
+
+                                return true;
+
+                            }
+                            else {
+                                GetPases();
+                                return true;
+                            }
+                        }
+                        else {
+                            cuteAlert({
+                                type: "warning",
+                                title: "¡Importante!",
+                                message: "</br>Es necesario ingresar el código de invitación que recibiste para confirmar tu asistencia.</br>",
+                                confirmText: "OK"
+                                })
+                                return false;
+                        }
+                    }
+        function RutaTemplo() {
+            var url = "https://www.google.com/maps/dir//Parroquia+De+Nuestra+Se%C3%B1ora+de+los+Bosques,+Montes+Himalaya,+Los+Bosques,+Aguascalientes/@21.9222699,-102.3503932,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8429ef04807c1053:0x3df1c47d8c273a38!2m2!1d-102.3091936!2d21.9221954!3e0?entry=ttu";
+            window.open(url, "Ruta");
+        }
+        function RutaSalon() {
+            var url = "https://www.google.com/maps/dir//Tendenza+-+Terraza%2FJardin,+Jes%C3%BAs+Mar%C3%ADa,+Aguascalientes/@21.989007,-102.3577777,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8429e57995ebb387:0xa8b7c82bf48005a9!2m2!1d-102.3166615!2d21.9888704!3e0?entry=ttu";
+
+            window.open(url, "Ruta");
+        }
+    </script>
+
+    <div id="page">
+        <a href="" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 0.49803921568627"></fefuncr><fefuncg type="table" tableValues="0 0.49803921568627"></fefuncg><fefuncb type="table" tableValues="0 0.49803921568627"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 1"></fefuncr><fefuncg type="table" tableValues="0 1"></fefuncg><fefuncb type="table" tableValues="0 1"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tableValues="0 1"></fefuncg><fefuncb type="table" tableValues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 1"></fefuncr><fefuncg type="table" tableValues="0 0.27843137254902"></fefuncg><fefuncb type="table" tableValues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 0"></fefuncr><fefuncg type="table" tableValues="0 0.64705882352941"></fefuncg><fefuncb type="table" tableValues="0 1"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.78039215686275 1"></fefuncr><fefuncg type="table" tableValues="0 0.94901960784314"></fefuncg><fefuncb type="table" tableValues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tableValues="0 1"></fefuncg><fefuncb type="table" tableValues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.098039215686275 1"></fefuncr><fefuncg type="table" tableValues="0 0.66274509803922"></fefuncg><fefuncb type="table" tableValues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>		<div data-elementor-type="wp-post" data-elementor-id="8746" data-post-id="8746" data-obj-id="8746" class="elementor elementor-8746 dce-elementor-post-8746">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <nav class="fh5co-nav" role="navigation">
+                        <div class="container">
+                            <div class="">
+                                <div class="col-xs-2">
+                                    
+                                </div>
+                                <div class="col-xs-10 text-right menu-1">
+                                    <ul>
+                                        <li><a href="" target="">Historia</a></li>
+                                        <li><a href="" target="">Padres / Padrinos</a></li>
+                                        <li><a href="" target="">Eventos</a></li>
+                                        <li><a href="" target="">Galería</a></li>
+                                        <li><a href="" target="">Mesa de Regalos</a></li>
+                                        <li><a href="" target="">Foro</a></li>
+                                        <li><a href="" target="">Asistencia</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <header id="fh5co-header" class="fh5co-cover portada" style="height: auto; padding-bottom: 25px; margin-bottom: 0px; background-position: 0px 779.5px;" role="banner" data-stellar-background-ratio="0.5">
+                    <iframe src="css/Carousel.html" id="myVideo" frameborder="0"></iframe>
+                        <div class="portada3"> </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="display-t">
+                                    <div class="display-tc animate-box fadeIn animated-fast" data-animate-effect="fadeIn">
+
+                                        <h1><img src="css/logo.png" class="logo" width="150" height="150" id="logoFade" style="opacity: 0.974176;"></h1>
+                                        <h1 style="color: #fff; text-shadow:2px 2px 2px #000; " data-aos="fade-down" class="aos-init aos-animate">Faltan</h1>
+                                        <div class="simply-countdown simply-countdown-one aos-init aos-animate" data-aos="zoom-out-up"><div class="simply-section simply-days-section"><div><span class="simply-amount">0</span><span class="simply-word">dia</span></div></div><div class="simply-section simply-hours-section"><div><span class="simply-amount">0</span><span class="simply-word">hora</span></div></div><div class="simply-section simply-minutes-section"><div><span class="simply-amount">0</span><span class="simply-word">minuto</span></div></div><div class="simply-section simply-seconds-section"><div><span class="simply-amount">0</span><span class="simply-word">segundo</span></div></div></div>
+                                        
+                                              <br><br><br><br>
+                                        <audio controls="controls" autoplay="autoplay" loop="" id="bgAudio">
+                                            <source src="../../images/Boda_CyA/Fondo.mp3" type="audio/mp3">
+                                        </audio>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                        <div class="itemSpace">
+                    <div id="fh5co-testimonial" class="backitem">
+                        <div class="container" id="InvitadoResponsable">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+                                    <h2>
+                                    
+                                        <span class="division">
+                                            <span class="divisionpulso">
+                                                <lord-icon src="https://cdn.lordicon.com/mqqrlqbh.json" trigger="loop" stroke="light" state="morph-two-hearts" colors="primary:#c5954c,secondary:#222" delay="7500" style="width:55px;height:55px;margin-top:-15px;"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #c5954c; --lord-icon-secondary-base: #222222;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_2"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_4"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath><g id="__lottie_element_14"><g transform="matrix(1,0,0,1,-35,-35)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,249.86099243164062,218.1739959716797)"><path fill="rgb(255,0,0)" fill-opacity="1" d=" M-158.69000244140625,-72.73400115966797 C-158.69000244140625,-72.73400115966797 -26.1299991607666,60.03799819946289 -26.1299991607666,60.03799819946289 C-11.704999923706055,74.49099731445312 11.720999717712402,74.49299621582031 26.148000717163086,60.04100036621094 C26.148000717163086,60.04100036621094 159.21299743652344,-73.16699981689453 159.21299743652344,-73.16699981689453"></path></g></g></g><filter id="__lottie_element_20" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><fecomponenttransfer in="SourceGraphic"><fefunca type="table" tableValues="1.0 0.0"></fefunca></fecomponenttransfer></filter><mask id="__lottie_element_14_2" mask-type="alpha"><g filter="url(#__lottie_element_20)"><rect width="430" height="430" x="0" y="0" fill="#ffffff" opacity="0"></rect><use href="#__lottie_element_14"></use></g></mask></defs><g clip-path="url(#__lottie_element_2)"><g clip-path="url(#__lottie_element_4)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(1,0,0,1,-35,-35)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,250,250)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.475" d=" M-159.1719970703125,-105.41999816894531 C-159.1719970703125,-105.41999816894531 -159.1719970703125,105.41999816894531 -159.1719970703125,105.41999816894531 C-159.1719970703125,105.41999816894531 159.1719970703125,105.41999816894531 159.1719970703125,105.41999816894531 C159.1719970703125,105.41999816894531 159.1719970703125,-105.3949966430664 159.1719970703125,-105.3949966430664 C159.1719970703125,-105.3949966430664 -159.1719970703125,-105.41999816894531 -159.1719970703125,-105.41999816894531z"></path></g></g><g mask="url(#__lottie_element_14_2)" style="display: block;"><g transform="matrix(1,0,0,1,-35,-35)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,249.86099243164062,218.1739959716797)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.475" d=" M159.21299743652344,117.10900115966797 C159.21299743652344,117.10900115966797 55.138999938964844,25.586000442504883 55.138999938964844,25.586000442504883 C24.993000030517578,-1.1430000066757202 -23.96299934387207,-1.1440000534057617 -54.11199951171875,25.582000732421875 C-54.11199951171875,25.582000732421875 -158.69000244140625,117.49299621582031 -158.69000244140625,117.49299621582031"></path></g></g></g><g transform="matrix(1,0,0,1,-35,-35)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,249.86099243164062,218.1739959716797)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.475" d=" M-158.69000244140625,-72.73400115966797 C-158.69000244140625,-72.73400115966797 -26.1299991607666,60.03799819946289 -26.1299991607666,60.03799819946289 C-11.704999923706055,74.49099731445312 11.720999717712402,74.49299621582031 26.148000717163086,60.04100036621094 C26.148000717163086,60.04100036621094 159.21299743652344,-73.16699981689453 159.21299743652344,-73.16699981689453"></path></g></g></g></g></svg></div></template>
+                                                </lord-icon>
+                                            </span>
+                                        </span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="display-t">
+                                    <div class="display-tc">
+                                        <div class="col-md-10 col-md-offset-1">
+                                            <div class="col-md-12 col-sm-12 text-center">
+                                                <div class="event-wrap animate-box fadeInUp animated-fast">
+                                                    
+                                                    <p class="animate-box fadeInUp animated-fast" style="color:#000">
+                                                        Deseamos celebrar el amor y la unión con la bendición de Dios y queremos que nuestros seres queridos nos acompañen en el comienzo de este nuevo viaje, por eso tenemos el honor de invitarte a nuestro enlace matrimonial.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemSpace">
+                    <div id="fh5co-couple" class="backitem" data-stellar-background-ratio="0.5" style="background-size: auto; background-position: -25px -43.6875px;">
+                        <div class="container" id="Historia">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+                                    <h2>
+                                        
+                                        <span class="division">
+                                            <span class="divisionpulso">
+
+                                                <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="loop" stroke="light" state="morph-two-hearts" colors="primary:#c5954c,secondary:#222" delay="7500" style="width:55px;height:55px;margin-top:-15px;"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #c5954c; --lord-icon-secondary-base: #222222;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_22"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_24"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath><g id="__lottie_element_31"><g style="display: none;"><g><path></path></g></g></g><filter id="__lottie_element_34" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><fecomponenttransfer in="SourceGraphic"><fefunca type="table" tableValues="1.0 0.0"></fefunca></fecomponenttransfer></filter><mask id="__lottie_element_31_2" mask-type="alpha"><g filter="url(#__lottie_element_34)"><rect width="430" height="430" x="0" y="0" fill="#ffffff" opacity="0"></rect><use href="#__lottie_element_31"></use></g></mask></defs><g clip-path="url(#__lottie_element_22)"><g clip-path="url(#__lottie_element_24)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g mask="url(#__lottie_element_31_2)" style="display: block;"><g transform="matrix(1,0,0,1,215,215)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6" d=" M144.94500732421875,14.956000328063965 C164.93699645996094,-5.035999774932861 174.97900390625,-31.257999420166016 174.97900390625,-57.4379997253418 C174.97900390625,-83.66000366210938 164.93699645996094,-109.88200378417969 144.94500732421875,-129.87399291992188 C127.88200378417969,-146.95399475097656 106.29499816894531,-156.7469940185547 84.03800201416016,-159.25 C54.13800048828125,-162.61300659179688 23.04400062561035,-152.82000732421875 0.11900000274181366,-129.87399291992188 C0.11900000274181366,-129.87399291992188 -0.0040000006556510925,-129.7519989013672 -0.0040000006556510925,-129.7519989013672 C-0.0040000006556510925,-129.7519989013672 -0.12999999523162842,-129.87399291992188 -0.12999999523162842,-129.87399291992188 C-20.121999740600586,-149.86599731445312 -46.34400177001953,-159.9080047607422 -72.52400207519531,-159.9080047607422 C-98.74600219726562,-159.9080047607422 -124.96399688720703,-149.86599731445312 -144.95599365234375,-129.87399291992188 C-184.98500061035156,-89.88600158691406 -184.98500061035156,-25.031999588012695 -144.95599365234375,14.956000328063965 C-144.95599365234375,14.956000328063965 -0.0040000006556510925,159.9080047607422 -0.0040000006556510925,159.9080047607422 C-0.0040000006556510925,159.9080047607422 144.94500732421875,14.956000328063965 144.94500732421875,14.956000328063965z"></path></g></g></g></g></g></svg></div></template>
+                                                </lord-icon>
+
+                                            </span>
+                                        </span>
+                                    </h2>
+                                </div>
+                            </div> <br>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="main-timeline9">
+                                        
+                                        <div class="timeline aos-init aos-animate" data-aos="fade-right">
+                                            <div class="timeline-content">
+                                                <div class="circle" style="background-image: url(../../images/Boda_CyA/5.jpg); background-size: cover; "><span><i class="fa fa-mobile"></i></span></div>
+                                                <div class="content">
+                                                    <span class="year">El Gran Día</span>
+                                                    
+                                                <p class="description animate-box animated-slow fadeInUp animated-fast">
+                                                    El matrimonio da un nuevo significado a nuestra historia y lo recibimos con el corazón lleno de ilusión y felicidad esperando de Dios la gracia de permanecer juntos en el amor.
+                                                    Cuando te das cuenta de que quieres pasar el resto de tu vida con una persona, quieres que el resto de tu vida empiece lo antes posible.
+                                                </p>
+                                                    <div class="icon"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                
+
+                
+                <div class="itemSpace">
+                    <div class="row fh5co-section-gray" style="background-image:url(../../images/Boda_CyA/fondoitem.jpg); height:auto;padding-bottom:25px; background-size:cover;">
+                        <div style="text-align:center;padding-top:50px" class="couple-wrap animate-box">
+                            <div class="col-md-12 text-center fh5co-heading">
+                                
+                                <span>Con la bendición de Dios y de nuestros padres</span>
+
+
+                            </div>
+                            <div style="padding-bottom: 5px; font-family: &#39;Cinzel-VariableFont_wght&#39;, Arial, serif; font-size: 25px; color: #222; text-align: center !important; font-weight: 200 !important; " id="Padrinos" class="couple-wrap aos-init" data-aos="fade-right">PADRES DE LA NOVIA</div>
+                            
+                            <div class="col-md-12 text-center fh5co-heading animate-box" style="margin-top:25px;">
+                                <div class="couple-wrap animate-box">
+                                    <div class="couple-half">
+
+                                    </div>
+                                    <p class="text-center"><img src="css/bride2.jpg" width="150" style=" border-radius: 50%;" data-aos="zoom-in-up" class="aos-init"></p>
+                                    
+                                    <p class="heart text-center"><img class="flores aos-init" src="css/flores.png" style="margin-top: 10px;" data-aos="zoom-in-up"></p>
+
+
+                                </div>
+                                <h3 style="color: #222; font-family: &#39;Cinzel-VariableFont_wght&#39;; font-size: 18px; " data-aos="zoom-in-up" class="aos-init">
+                                    Olivia Pedroza Guzmán
+                                    <br>&amp;<br>
+
+                                    Sergio Castañeda Jaime
+                                </h3>
+
+                            </div>
+                        </div>
+
+
+
+                        <div style="padding-bottom: 5px; font-family: &#39;Cinzel-VariableFont_wght&#39;, Arial, serif; font-size: 25px; color: #222; text-align: center !important; font-weight: 200 !important; width: 100%; margin-top: 20px;" class="couple-wrap aos-init" data-aos="fade-left">PADRES DEL NOVIO</div>
+                        
+                        <div class="col-md-12 text-center fh5co-heading animate-box" style="margin-top:25px;">
+                            <div class="couple-wrap animate-box">
+                                <div class="couple-half">
+
+                                </div>
+                                <p class="text-center"><img src="css/groom2.jpg" width="150" style=" border-radius: 50%;" data-aos="zoom-in-up" class="aos-init"></p>
+                                
+                                <p class="heart text-center"><img class="flores aos-init" src="css/flores.png" style="margin-top: 10px;" data-aos="zoom-in-up"></p>
+
+
+                            </div>
+                            <h3 style="color: #222; font-family: &#39;Cinzel-VariableFont_wght&#39;; font-size: 18px; " data-aos="zoom-in-up" class="aos-init">
+                                Baldina Alba Diaz
+                                <br>&amp;<br>
+
+                                Humberto Iñiguez Guzmán
+                            </h3>
+
+                        </div>
+                        <div class="col-md-12 text-center fh5co-heading animate-box" style="margin-top:50px;">
+                                <span>En compañía de nuestros padrinos</span>
+
+
+                            </div>
+                        <div style="padding-bottom: 5px; font-family: &#39;Cinzel-VariableFont_wght&#39;; font-size: 25px; color: #222; text-align: center !important; font-weight: 200 !important; width: 100%; margin-top: 50px; " class="couple-wrap aos-init" data-aos="fade-right">VELACIÓN</div>
+
+                        <div class="col-md-12 text-center fh5co-heading animate-box" style="margin-top:15px;">
+                                
+                                <div class="couple-wrap animate-box">
+                                    <div class="couple-half">
+                                    </div>
+                                    <p class="text-center aos-init" data-aos="fade-right"><img src="css/velacion.png" width="150" style=" border-radius: 50%;"></p>
+                                    <p class="heart text-center aos-init" data-aos="fade-left"><img class="flores" src="css/flores.png" style="margin-top: 12px;"></p>
+                                </div>
+                                <h3 style="color: #414141; font-family: &#39;Cinzel-VariableFont_wght&#39;; font-size: 20px; " data-aos="zoom-in-up" class="aos-init">
+                                    Mónica Iñiguez Alba
+
+                                    <br>&amp;<br>
+                                    Omar Espinoza Peña
+                                </h3>
+
+                            </div>
+
+
+                        
+                    </div>
+                </div>
+                
+                <div id="fh5co-event" class="fh5co-bg" style="background-image: url(&quot;../../images/Boda_CyA/fondoeventos.jpg&quot;); background-size: cover; height: auto; margin-bottom: 25px; background-position: -25px -1052.8px;" data-stellar-background-ratio="0.5">
+                    <div class="overlay"></div>
+                    <div class="container" id="Eventos">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                                <h2 style="color:#fff;">Eventos</h2>
+                                <br>
+                                <span class="division2" style="margin-bottom:25px;color:#fff !important;">
+                                    <span class="divisionpulso2">
+
+                                        <lord-icon src="https://cdn.lordicon.com/surcxhka.json" trigger="loop" stroke="light" delay="7500" colors="primary:#fff,secondary:#fff" style="width:70px;height:70px;margin-top:-15px;"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #ffffff; --lord-icon-secondary-base: #ffffff;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_36"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_38"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath></defs><g clip-path="url(#__lottie_element_36)"><g clip-path="url(#__lottie_element_38)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(1,0,0,1,215,215)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d="M0 0"></path></g></g><g transform="matrix(3.5,0.00004888401599600911,-0.00004888401599600911,3.5,215.00196838378906,197.4976043701172)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="1.825" d=" M-31.66900062561035,6.4679999351501465 C-32.74599838256836,3.134999990463257 -33.37699890136719,-0.4090000092983246 -33.37699890136719,-4.105000019073486 C-33.37699890136719,-23.266000747680664 -17.226999282836914,-38.65599822998047 2.2149999141693115,-37.40399932861328 C18.697999954223633,-36.34299850463867 32.097999572753906,-23.040000915527344 33.28499984741211,-6.565999984741211 C33.595001220703125,-2.2660000324249268 33.04999923706055,1.8650000095367432 31.902000427246094,5.71999979019165 C26.54400062561035,23.707000732421875 0.003000000026077032,50.20000076293945 0.003000000026077032,50.20000076293945 C0.003000000026077032,50.20000076293945 -24.979000091552734,27.166000366210938 -31.66900062561035,6.4679999351501465z"></path></g></g><g transform="matrix(3.5,0.00004888401599600911,-0.00004888401599600911,3.5,215.00196838378906,197.4976043701172)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="1.8" d=" M15.704000473022461,-4.103000164031982 C15.704000473022461,4.570000171661377 8.67300033569336,11.600000381469727 0,11.600000381469727 C-8.67300033569336,11.600000381469727 -15.704000473022461,4.570000171661377 -15.704000473022461,-4.103000164031982 C-15.704000473022461,-12.776000022888184 -8.67300033569336,-19.80699920654297 0,-19.80699920654297 C8.67300033569336,-19.80699920654297 15.704000473022461,-12.776000022888184 15.704000473022461,-4.103000164031982z"></path></g></g></g></g></svg></div></template>
+                                        </lord-icon>
+                                    </span>
+                                </span>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="display-t">
+                                <div class="display-tc">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="col-md-6 col-sm-6 text-center">
+                                                <div class="event-wrap aos-init" data-aos="zoom-in-up" style="background-image: url(../../images/XV_Lina/fondotemplo.jpg); background-size: cover;">
+
+                                                    <h3>   Parroquia Ntra. Sra. de los Bosques</h3>
+                                                    <div class="event-col aos-init" data-aos="fade-right">                                                    
+                                                        <lord-icon src="https://cdn.lordicon.com/hingizjn.json" trigger="loop" stroke="light" colors="primary:#ffffff,secondary:#ffffff" style="width:80px;height:80px"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #ffffff; --lord-icon-secondary-base: #ffffff;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_52"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_54"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath></defs><g clip-path="url(#__lottie_element_52)"><g clip-path="url(#__lottie_element_54)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(1,0,0,1,229.72723388671875,215)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-38.31782531738281,3.5 C-38.31782531738281,3.5 135.1873321533203,3 135.1873321533203,3 C135.1873321533203,3 178.880615234375,53 178.880615234375,53 C178.880615234375,53 178.630615234375,160 178.630615234375,160 C178.630615234375,160 1.4038770198822021,160 1.4038770198822021,160 M135.1873321533203,4 C135.1873321533203,4 135.1873321533203,-42 135.1873321533203,-42 C135.1873321533203,-42 85.18156433105469,-120 85.18156433105469,-120 C85.18156433105469,-120 -128.40301513671875,-119.5 -128.40301513671875,-119.5 M134.4373321533203,-41.5 C134.4373321533203,-41.5 -75.34612274169922,-41 -75.34612274169922,-41 M178.130615234375,53 C178.130615234375,53 1.8243287801742554,53.5 1.8243287801742554,53.5"></path></g></g><g transform="matrix(1,0,0,1,215,215)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M49.30714416503906,80 C49.30714416503906,80 49.30714416503906,134 49.30714416503906,134 M78.30137634277344,80 C78.30137634277344,80 78.30137634277344,134 78.30137634277344,134 M107.29560089111328,80 C107.29560089111328,80 107.29560089111328,134 107.29560089111328,134 M136.2898406982422,80 C136.2898406982422,80 136.2898406982422,134 136.2898406982422,134 M165.28407287597656,80 C165.28407287597656,80 165.28407287597656,134 165.28407287597656,134"></path></g></g><g transform="matrix(1,0,0,1,229.72723388671875,215)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-38.822052001953125,3.6050000190734863 C-38.822052001953125,3.6050000190734863 2.835306406021118,51.2869987487793 2.835306406021118,51.2869987487793 C2.835306406021118,51.2869987487793 2.835306406021118,160.11900329589844 2.835306406021118,160.11900329589844 C2.835306406021118,160.11900329589844 -77.94125366210938,160.22853088378906 -77.94125366210938,160.22853088378906"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-177.56979370117188,31.316120147705078 C-177.56979370117188,31.316120147705078 -183.5016632080078,51.38456726074219 -183.5016632080078,51.38456726074219 C-183.5016632080078,51.38456726074219 -183.5016632080078,160.21656799316406 -183.5016632080078,160.21656799316406 C-183.5016632080078,160.21656799316406 -177.56979370117188,160.21656799316406 -177.56979370117188,160.21656799316406"></path></g></g><g transform="matrix(1,0,0,1,229.72723388671875,215)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-127.31594848632812,-120.70467376708984 C-127.31594848632812,-120.70467376708984 -127.31594848632812,-186.46267700195312 -127.31594848632812,-186.46267700195312"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-144.0748748779297,-159.77566528320312 C-144.0748748779297,-159.77566528320312 -110.55693817138672,-159.77566528320312 -110.55693817138672,-159.77566528320312"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-102.17793273925781,160.4623260498047 C-102.17793273925781,160.4623260498047 -152.8553924560547,160.4623260498047 -152.8553924560547,160.4623260498047 C-152.8553924560547,160.4623260498047 -152.8553924560547,80.72232818603516 -152.8553924560547,80.72232818603516 C-152.8553924560547,58.43832778930664 -141.5106201171875,40.373329162597656 -127.51620483398438,40.373329162597656 C-127.51620483398438,40.373329162597656 -127.51620483398438,40.373329162597656 -127.51620483398438,40.373329162597656 C-113.52179718017578,40.373329162597656 -102.17793273925781,58.43832778930664 -102.17793273925781,80.72232818603516 C-102.17793273925781,80.72232818603516 -102.17793273925781,160.4623260498047 -102.17793273925781,160.4623260498047z"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-108.4837417602539,-26.050750732421875 C-108.4837417602539,-9.311751365661621 -117.0049819946289,4.257248878479004 -127.51620483398438,4.257248878479004 C-138.02743530273438,4.257248878479004 -146.54959106445312,-9.311751365661621 -146.54959106445312,-26.050750732421875 C-146.54959106445312,-42.78974914550781 -138.02743530273438,-56.358673095703125 -127.51620483398438,-56.358673095703125 C-117.0049819946289,-56.358673095703125 -108.4837417602539,-42.78974914550781 -108.4837417602539,-26.050750732421875z"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-127.31594848632812,-120.70467376708984 C-127.31594848632812,-120.70467376708984 -77.4405288696289,-41.28367233276367 -77.4405288696289,-41.28367233276367 C-77.4405288696289,-41.28367233276367 -77.4405288696289,160.4623260498047 -77.4405288696289,160.4623260498047 C-77.4405288696289,160.4623260498047 -177.59188842773438,160.4623260498047 -177.59188842773438,160.4623260498047 C-177.59188842773438,160.4623260498047 -177.59188842773438,-41.922672271728516 -177.59188842773438,-41.922672271728516 C-177.59188842773438,-41.922672271728516 -127.31594848632812,-120.70467376708984 -127.31594848632812,-120.70467376708984z"></path></g></g><g transform="matrix(1,0,0,1,215,215)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="6.3" d=" M-24.011049270629883,5 C-24.011049270629883,5 -24.011049270629883,159 -24.011049270629883,159"></path></g></g></g></g></svg></div></template>
+                                                        </lord-icon>
+                                                        <span>Ceremonia Religiosa</span>
+                                                    </div>
+                                                    <div class="event-col aos-init" data-aos="fade-left">
+                                                        <lord-icon src="https://cdn.lordicon.com/qvyppzqz.json" trigger="loop" delay="2000" colors="primary:#ffffff,secondary:#fff" style="width:90px;height:90px"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #ffffff; --lord-icon-secondary-base: #ffffff;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_71"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_73"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath></defs><g clip-path="url(#__lottie_element_71)"><g clip-path="url(#__lottie_element_73)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(3.369960069656372,0,0,3.369960069656372,215.00067138671875,214.99952697753906)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3.36" d=" M35.5369987487793,36.10499954223633 C16.01099967956543,55.63100051879883 -15.647000312805176,55.63100051879883 -35.17300033569336,36.10499954223633 C-54.69900131225586,16.57900047302246 -54.69900131225586,-15.079000473022461 -35.17300033569336,-34.60499954223633 C-15.647000312805176,-54.13100051879883 16.01099967956543,-54.13100051879883 35.5369987487793,-34.60499954223633 C55.0629997253418,-15.079000473022461 55.0629997253418,16.57900047302246 35.5369987487793,36.10499954223633z"></path></g></g><g transform="matrix(-1.317218542098999,3.10186505317688,-3.10186505317688,-1.317218542098999,218.1801300048828,217.9503631591797)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3.36" d=" M0.18199999630451202,-0.20999999344348907 C0.18199999630451202,-0.20999999344348907 0.18199999630451202,-34.57099914550781 0.18199999630451202,-34.57099914550781"></path></g></g><g transform="matrix(-1.8597925901412964,-2.810302972793579,2.810302972793579,-1.8597925901412964,213.84475708007812,219.43331909179688)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3.36" d=" M0.18199999630451202,0.75 C0.18199999630451202,0.75 18.051000595092773,-17.118999481201172 18.051000595092773,-17.118999481201172"></path></g></g></g></g></svg></div></template>
+                                                        </lord-icon>
+                                                        <span>   5:00 PM</span>
+                                                        <span style="font-size:12px;"> &nbsp;</span>
+
+                                                    </div>
+
+                                                    <h3>Dirección</h3>
+                                                    <p>   Montes Himalaya S/N, Los Bosques, 20120 Aguascalientes, Ags.</p>
+
+                                                    <button type="button" onclick="javascript:RutaTemplo()" class="btn btn-md btn-success" style="font-weight: 500;"><i class="icon-location" style=" font-weight: 500;"></i> Ruta Templo</button>
+                                                </div>
+                                            </div>
+                                        <div class="col-md-6 col-sm-6 text-center">
+                                            <div class="event-wrap aos-init" data-aos="zoom-in-up">
+                                                <h3>   Salón Tendenza</h3>
+
+                                                
+
+
+                                                <div class="event-col aos-init" data-aos="fade-right">
+                                                    <lord-icon src="https://cdn.lordicon.com/wxnxiano.json" trigger="loop" delay="7000" colors="primary:#ffffff,secondary:#fff" style="width:80px;height:80px"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #ffffff; --lord-icon-secondary-base: #ffffff;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" width="500" height="500" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_87"><rect width="500" height="500" x="0" y="0"></rect></clippath><clippath id="__lottie_element_90"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clippath><clippath id="__lottie_element_94"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clippath><clippath id="__lottie_element_98"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clippath><g id="__lottie_element_105"><g clip-path="url(#__lottie_element_106)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(1,0,0,1,367.5,250)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-32.5,-8)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="0" d=" M-39.8999137878418,-224.99972534179688 C-39.8999137878418,-224.99972534179688 -63.7125129699707,-191.9728240966797 -74.8423843383789,-164.47816467285156 C-81.30390930175781,-146.94277954101562 -84.51799774169922,-111.17311096191406 -84.51799774169922,-111.17311096191406 C-84.51799774169922,-111.17311096191406 -84.39651489257812,141.1230010986328 -84.39651489257812,141.1230010986328 C-84.39651489257812,141.1230010986328 -82.66942596435547,105.32513427734375 -75.66571807861328,97.204345703125 C-67.46344757080078,79.79141235351562 -39.8999137878418,55.00082778930664 -39.8999137878418,55.00082778930664 C-39.8999137878418,55.00082778930664 -39.8999137878418,-224.99972534179688 -39.8999137878418,-224.99972534179688z"></path><path fill="rgb(255,0,0)" fill-opacity="1" d=" M-39.8999137878418,-224.99972534179688 C-39.8999137878418,-224.99972534179688 -63.7125129699707,-191.9728240966797 -74.8423843383789,-164.47816467285156 C-81.30390930175781,-146.94277954101562 -84.51799774169922,-111.17311096191406 -84.51799774169922,-111.17311096191406 C-84.51799774169922,-111.17311096191406 -84.39651489257812,141.1230010986328 -84.39651489257812,141.1230010986328 C-84.39651489257812,141.1230010986328 -82.66942596435547,105.32513427734375 -75.66571807861328,97.204345703125 C-67.46344757080078,79.79141235351562 -39.8999137878418,55.00082778930664 -39.8999137878418,55.00082778930664 C-39.8999137878418,55.00082778930664 -39.8999137878418,-224.99972534179688 -39.8999137878418,-224.99972534179688z"></path></g></g></g></g><clippath id="__lottie_element_106"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clippath><filter id="__lottie_element_112" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><fecomponenttransfer in="SourceGraphic"><fefunca type="table" tableValues="1.0 0.0"></fefunca></fecomponenttransfer></filter><mask id="__lottie_element_105_2" mask-type="alpha"><g filter="url(#__lottie_element_112)"><rect width="500" height="500" x="0" y="0" fill="#ffffff" opacity="0"></rect><use href="#__lottie_element_105"></use></g></mask><g id="__lottie_element_119"><g clip-path="url(#__lottie_element_120)" style="display: none;"></g></g><clippath id="__lottie_element_120"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clippath><filter id="__lottie_element_126" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><fecomponenttransfer in="SourceGraphic"><fefunca type="table" tableValues="1.0 0.0"></fefunca></fecomponenttransfer></filter><mask id="__lottie_element_119_2" mask-type="alpha"><g filter="url(#__lottie_element_126)"><rect width="500" height="500" x="0" y="0" fill="#ffffff" opacity="0"></rect><use href="#__lottie_element_119"></use></g></mask><clippath id="__lottie_element_128"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clippath><g id="__lottie_element_131"><g style="display: none;"><path></path><g><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"></path></g></g></g><filter id="__lottie_element_134" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><fecomponenttransfer in="SourceGraphic"><fefunca type="table" tableValues="1.0 0.0"></fefunca></fecomponenttransfer></filter><mask id="__lottie_element_131_2" mask-type="alpha"><g filter="url(#__lottie_element_134)"><rect width="500" height="500" x="0" y="0" fill="#ffffff" opacity="0"></rect><use href="#__lottie_element_131"></use></g></mask><clippath id="__lottie_element_136"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clippath><g id="__lottie_element_139"><g style="display: none;"><path></path><g><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"></path></g></g></g><filter id="__lottie_element_142" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%"><fecomponenttransfer in="SourceGraphic"><fefunca type="table" tableValues="1.0 0.0"></fefunca></fecomponenttransfer></filter><mask id="__lottie_element_139_2" mask-type="alpha"><g filter="url(#__lottie_element_142)"><rect width="500" height="500" x="0" y="0" fill="#ffffff" opacity="0"></rect><use href="#__lottie_element_139"></use></g></mask></defs><g clip-path="url(#__lottie_element_87)"><g clip-path="url(#__lottie_element_90)" transform="matrix(1,0,0,1,0,0)" opacity="0" style="display: block;"><g mask="url(#__lottie_element_105_2)" style="display: block;"><g transform="matrix(1,0,0,1,367.5,250)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,-32.5,-8)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M-171.26600646972656,180.79400634765625 C-171.10400390625,193.1230010986328 -170.9770050048828,202.75 -170.9770050048828,202.75 C-170.9770050048828,202.75 -143.12399291992188,177.25 -143.12399291992188,177.25 C-143.12399291992188,177.25 -115.81199645996094,202.25 -115.81199645996094,202.25 C-115.81199645996094,202.25 -115.947998046875,129.27000427246094 -115.947998046875,129.27000427246094 M-171.95799255371094,128.33999633789062 C-171.95799255371094,128.33999633789062 -171.55599975585938,158.8470001220703 -171.26600646972656,180.79400634765625"></path></g><g opacity="1" transform="matrix(1,0,0,1,-32.5,-8)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M-84.5530014038086,-92.46900177001953 C-84.68099975585938,-25.29599952697754 -85,141.1230010986328 -85,141.1230010986328 C-85,141.1230010986328 -107.48899841308594,124.98899841308594 -133.5,124.79299926757812 C-172.5,124.5 -256.5,140.26300048828125 -256.5,140.26300048828125 C-256.5,140.26300048828125 -256.5,-117.72599792480469 -256.5,-117.72599792480469 C-256.5,-117.72599792480469 -256.5,-117.72599792480469 -256.5,-117.72599792480469 C-256.5,-117.72599792480469 -186.47999572753906,-137.0760040283203 -134.5,-138.5850067138672 C-103,-139.5 -84.5,-120.09300231933594 -84.5,-120.09300231933594 C-84.5,-120.09300231933594 -84.5199966430664,-109.4530029296875 -84.5530014038086,-92.46900177001953 M-84.4520034790039,-95.7750015258789 C-84.322998046875,-30.94499969482422 -83.98100280761719,141.1230010986328 -83.98100280761719,141.1230010986328 C-83.98100280761719,141.1230010986328 -60.641998291015625,124.98899841308594 -33.64799880981445,124.79299926757812 C6.826000213623047,124.5 94,140.26300048828125 94,140.26300048828125 C94,140.26300048828125 94,-117.72599792480469 94,-117.72599792480469 C94,-117.72599792480469 94,-117.72599792480469 94,-117.72599792480469 C94,-117.72599792480469 21.333999633789062,-137.0760040283203 -32.61000061035156,-138.5850067138672 C-65.30000305175781,-139.5 -84.5,-120.09300231933594 -84.5,-120.09300231933594 C-84.5,-120.09300231933594 -84.48200225830078,-110.822998046875 -84.4520034790039,-95.7750015258789"></path></g></g></g><g transform="matrix(1,0,0,1,367.5,250)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-32.5,-8)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M-39.899776458740234,-224.99972534179688 C-39.899776458740234,-224.99972534179688 -63.71242904663086,-191.97283935546875 -74.84233856201172,-164.47813415527344 C-81.30389404296875,-146.94271850585938 -84.51799774169922,-111.1731185913086 -84.51799774169922,-111.1731185913086 C-84.51799774169922,-111.1731185913086 -84.39651489257812,141.1230010986328 -84.39651489257812,141.1230010986328 C-84.39651489257812,141.1230010986328 -82.66939544677734,105.32518768310547 -75.66566467285156,97.2043685913086 C-67.46336364746094,79.79142761230469 -39.899776458740234,55.00080871582031 -39.899776458740234,55.00080871582031 C-39.899776458740234,55.00080871582031 -39.899776458740234,-224.99972534179688 -39.899776458740234,-224.99972534179688z"></path></g></g></g><g clip-path="url(#__lottie_element_94)" transform="matrix(1,0,0,1,0,0)" opacity="0" style="display: block;"><g mask="url(#__lottie_element_119_2)" style="display: block;"><g transform="matrix(1,0,0,1,367.5,250)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,-32.5,-8)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M-171.26600646972656,180.79400634765625 C-171.10400390625,193.1230010986328 -170.9770050048828,202.75 -170.9770050048828,202.75 C-170.9770050048828,202.75 -143.12399291992188,177.25 -143.12399291992188,177.25 C-143.12399291992188,177.25 -115.81199645996094,202.25 -115.81199645996094,202.25 C-115.81199645996094,202.25 -115.947998046875,129.27000427246094 -115.947998046875,129.27000427246094 M-171.95799255371094,128.33999633789062 C-171.95799255371094,128.33999633789062 -171.55599975585938,158.8470001220703 -171.26600646972656,180.79400634765625"></path></g><g opacity="1" transform="matrix(1,0,0,1,-32.5,-8)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M-84.5530014038086,-92.46900177001953 C-84.68099975585938,-25.29599952697754 -85,141.1230010986328 -85,141.1230010986328 C-85,141.1230010986328 -107.48899841308594,124.98899841308594 -133.5,124.79299926757812 C-172.5,124.5 -256.5,140.26300048828125 -256.5,140.26300048828125 C-256.5,140.26300048828125 -256.5,-117.72599792480469 -256.5,-117.72599792480469 C-256.5,-117.72599792480469 -256.5,-117.72599792480469 -256.5,-117.72599792480469 C-256.5,-117.72599792480469 -186.47999572753906,-137.0760040283203 -134.5,-138.5850067138672 C-103,-139.5 -84.5,-120.09300231933594 -84.5,-120.09300231933594 C-84.5,-120.09300231933594 -84.5199966430664,-109.4530029296875 -84.5530014038086,-92.46900177001953 M-84.4520034790039,-95.7750015258789 C-84.322998046875,-30.94499969482422 -83.98100280761719,141.1230010986328 -83.98100280761719,141.1230010986328 C-83.98100280761719,141.1230010986328 -60.641998291015625,124.98899841308594 -33.64799880981445,124.79299926757812 C6.826000213623047,124.5 94,140.26300048828125 94,140.26300048828125 C94,140.26300048828125 94,-117.72599792480469 94,-117.72599792480469 C94,-117.72599792480469 94,-117.72599792480469 94,-117.72599792480469 C94,-117.72599792480469 21.333999633789062,-137.0760040283203 -32.61000061035156,-138.5850067138672 C-65.30000305175781,-139.5 -84.5,-120.09300231933594 -84.5,-120.09300231933594 C-84.5,-120.09300231933594 -84.48200225830078,-110.822998046875 -84.4520034790039,-95.7750015258789"></path></g></g></g><g transform="matrix(1,0,0,1,367.5,250)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-32.5,-8)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M94.5,-117.72599792480469 C94.5,-117.72599792480469 21.6299991607666,-137.0760040283203 -32.46500015258789,-138.5850067138672 C-65.24700164794922,-139.5 -84.5,-120.09300231933594 -84.5,-120.09300231933594 C-84.5,-120.09300231933594 -83.9800033569336,141.1230010986328 -83.9800033569336,141.1230010986328 C-83.9800033569336,141.1230010986328 -60.57600021362305,124.98899841308594 -33.50600051879883,124.79299926757812 C7.080999851226807,124.5 94.5,140.26300048828125 94.5,140.26300048828125 C94.5,140.26300048828125 94.5,-117.72599792480469 94.5,-117.72599792480469z"></path></g></g></g><g clip-path="url(#__lottie_element_98)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g mask="url(#__lottie_element_131_2)" style="display: block;"><g clip-path="url(#__lottie_element_128)" transform="matrix(1,0,0,1,0,0)" opacity="1"><g mask="url(#__lottie_element_139_2)" style="display: block;"><g clip-path="url(#__lottie_element_136)" transform="matrix(1,0,0,1,0,0)" opacity="1"><g transform="matrix(1,0,0,1,4,25.999984741210938)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,192.9770050048828,403.5880126953125)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M25.898000717163086,-24.625 C25.898000717163086,-24.625 24.60700035095215,24.625 24.60700035095215,24.625 C24.60700035095215,24.625 -0.8930000066757202,-0.875 -0.8930000066757202,-0.875 C-0.8930000066757202,-0.875 -25.898000717163086,24.125 -25.898000717163086,24.125 C-25.898000717163086,24.125 -25.483999252319336,-24.371999740600586 -25.483999252319336,-24.371999740600586"></path></g><g opacity="1" transform="matrix(1,0,0,1,250.322998046875,100.30400085449219)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M110.43299865722656,28.510000228881836 C110.43299865722656,-3.818000078201294 110.43299865722656,-28.510000228881836 110.43299865722656,-28.510000228881836 C110.43299865722656,-28.510000228881836 -12.824000358581543,-28.510000228881836 -75.37300109863281,-28.510000228881836 C-107.51499938964844,-28.510000228881836 -110.85099792480469,-4.744999885559082 -110.39600372314453,3.572000026702881"></path></g><g opacity="1" transform="matrix(1,0,0,1,250,239.8260040283203)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M110.75599670410156,-108.56999969482422 C110.75599670410156,-108.56999969482422 -43.435001373291016,-108.39800262451172 -74.8219985961914,-108.58000183105469 C-110.86900329589844,-108.78900146484375 -110.30000305175781,-136.14599609375 -110.30000305175781,-136.14599609375 C-110.30000305175781,-136.14599609375 -110.75599670410156,103.6240005493164 -110.75599670410156,103.6240005493164 C-110.75599670410156,103.6240005493164 -109.39099884033203,135.63299560546875 -73.91300201416016,136.05499267578125 C-56.630001068115234,136.26100158691406 110.75599670410156,136.05499267578125 110.75599670410156,136.05499267578125 C110.75599670410156,136.05499267578125 110.75599670410156,-108.56999969482422 110.75599670410156,-108.56999969482422z"></path></g><g opacity="1" transform="matrix(1,0,0,1,259.35198974609375,100.43599700927734)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M71.40399932861328,0.050999999046325684 C71.40399932861328,0.050999999046325684 71.40399932861328,0.050999999046325684 71.40399932861328,0.050999999046325684 C71.40399932861328,0.050999999046325684 -17.493999481201172,0.027000000700354576 -71.40399932861328,-0.050999999046325684"></path></g><g opacity="1" transform="matrix(1,0,0,1,183.03500366210938,100.37799835205078)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="12.6" d=" M0,0"></path></g></g></g></g></g></g></g></g></svg></div></template>
+                                                    </lord-icon>
+                                                    <span>Recepción</span>
+
+                                                </div>
+
+                                                <div class="event-col aos-init" data-aos="fade-left">
+                                                    <lord-icon src="https://cdn.lordicon.com/qvyppzqz.json" trigger="loop" delay="2000" colors="primary:#ffffff,secondary:#fff" style="width:90px;height:90px"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #ffffff; --lord-icon-secondary-base: #ffffff;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_201"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_203"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath></defs><g clip-path="url(#__lottie_element_201)"><g clip-path="url(#__lottie_element_203)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(3.369960069656372,0,0,3.369960069656372,215.00067138671875,214.99952697753906)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3.36" d=" M35.5369987487793,36.10499954223633 C16.01099967956543,55.63100051879883 -15.647000312805176,55.63100051879883 -35.17300033569336,36.10499954223633 C-54.69900131225586,16.57900047302246 -54.69900131225586,-15.079000473022461 -35.17300033569336,-34.60499954223633 C-15.647000312805176,-54.13100051879883 16.01099967956543,-54.13100051879883 35.5369987487793,-34.60499954223633 C55.0629997253418,-15.079000473022461 55.0629997253418,16.57900047302246 35.5369987487793,36.10499954223633z"></path></g></g><g transform="matrix(2.1978909969329834,2.5545852184295654,-2.5545852184295654,2.1978909969329834,217.1299285888672,215.41363525390625)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3.36" d=" M0.18199999630451202,-0.20999999344348907 C0.18199999630451202,-0.20999999344348907 0.18199999630451202,-34.57099914550781 0.18199999630451202,-34.57099914550781"></path></g></g><g transform="matrix(-3.0629589557647705,-1.4053159952163696,1.4053159952163696,-3.0629589557647705,215.1174774169922,220.07998657226562)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3.36" d=" M0.18199999630451202,0.75 C0.18199999630451202,0.75 18.051000595092773,-17.118999481201172 18.051000595092773,-17.118999481201172"></path></g></g></g></g></svg></div></template>
+                                                    </lord-icon>
+                                                    <span>   7:00 PM </span>
+                                                    <span style="font-size:12px;"> &nbsp;</span>
+                                                </div>
+
+
+                                                <div class="col-lg-12 animate-box" style="font-size:20px; font-weight:bolder; text-align:center;">
+
+
+                                                    <center>
+                                                        <img src="css/nobebes.png" width="62" height="62" class="animate-box fadeInLeft">
+                                                        <p style="color:#fff; font-size:18px; " class="animate-box fadeInRight">
+                                                            <b>NOTA: </b>
+                                                        </p>
+                                                        <p style="font-weight: 500; margin-top: 0px; color: #fff; font-size: 32px;" class="animate-box fadeInUpBig">
+                                                            No niños
+                                                        </p>
+                                                        <p style="font-weight: 100; margin-top: 0px; color: #fff; font-size: 14px;" class="animate-box fadeInUpBig">
+                                                            Amamos a sus pequeños pero ese día queremos que solo tengan que preocuparse por pasarla increíble
+                                                        </p>
+                                                        <p style="font-weight: 500; margin-top: 0px; color: #fff; font-size: 32px;" class="animate-box fadeInUpBig">
+                                                            Formal
+                                                        </p>
+                                                    </center>
+
+                                                </div>
+
+
+                                                <h3>Dirección</h3>
+                                                <p class="animate-box">   San Miguel de Diaz #140 20903 Aguascalientes, México</p>
+
+                                                <button type="button" onclick="javascript:RutaSalon()" class="btn btn-md btn-success animate-box" style=" font-weight: 500;"><i class="icon-location" style=" font-weight: 500;"></i> Ruta Salón</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+                
+
+                
+                <div class="elementor-inner itemSpace">
+                    <div id="fh5co-testimonial" class="elementor-section-wrap backitem">
+
+                        <section style="background: transparent; padding: 0" class="elementor-section elementor-top-section elementor-element elementor-element-61fe73a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="61fe73a4" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;3e4e5ba&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}],&quot;background_background&quot;:&quot;classic&quot;}">
+                            <div class="elementor-background-overlay"></div>
+                            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                                <span>Memorias</span>
+                                <span class="division">
+                                    <span class="divisionpulso">
+
+                                        <lord-icon src="https://cdn.lordicon.com/hydaaclh.json" trigger="loop" delay="5000" stroke="light" state="hover-mountains" colors="primary:#c5954c,secondary:#222" style="width:70px;height:70px;margin-top:-19px;"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #c5954c; --lord-icon-secondary-base: #222222;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_147"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_149"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath></defs><g clip-path="url(#__lottie_element_147)"><g clip-path="url(#__lottie_element_149)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(1,0,0,1,215,134.94000244140625)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M106.74600219726562,80.05999755859375 C106.74600219726562,80.05999755859375 -106.74600219726562,80.05999755859375 -106.74600219726562,80.05999755859375 C-106.74600219726562,80.05999755859375 -106.74600219726562,-80.05999755859375 -106.74600219726562,-80.05999755859375 C-106.74600219726562,-80.05999755859375 106.74600219726562,-80.05999755859375 106.74600219726562,-80.05999755859375 C106.74600219726562,-80.05999755859375 106.74600219726562,80.05999755859375 106.74600219726562,80.05999755859375z"></path></g></g><g transform="matrix(1,0,0,1,215,134.94000244140625)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M66.71600341796875,40.029998779296875 C66.71600341796875,40.029998779296875 -66.71600341796875,40.029998779296875 -66.71600341796875,40.029998779296875 C-66.71600341796875,40.029998779296875 -66.71600341796875,-40.029998779296875 -66.71600341796875,-40.029998779296875 C-66.71600341796875,-40.029998779296875 66.71600341796875,-40.029998779296875 66.71600341796875,-40.029998779296875 C66.71600341796875,-40.029998779296875 66.71600341796875,40.029998779296875 66.71600341796875,40.029998779296875z"></path></g></g><g transform="matrix(1,0,0,1,215,375.1189880371094)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M-177.16000366210938,0 C-177.16000366210938,0 177.16000366210938,0 177.16000366210938,0"></path></g></g><g transform="matrix(1,0,0,1,-35,-35)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,250,300.5299987792969)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(33,33,33)" stroke-opacity="1" stroke-width="6.02" d=" M133.43299865722656,-29.530000686645508 C133.43299865722656,-29.530000686645508 76.24700164794922,29.530000686645508 0,29.530000686645508 C-76.36000061035156,29.530000686645508 -133.43299865722656,-29.530000686645508 -133.43299865722656,-29.530000686645508"></path></g><g opacity="1" transform="matrix(1,0,0,1,116.56700134277344,340.55999755859375)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M0,69.55999755859375 C0,69.55999755859375 -2.413650008747936e-7,-69.55999755859375 -2.413650008747936e-7,-69.55999755859375"></path></g><g opacity="1" transform="matrix(1,0,0,1,383.4330139160156,340.55999755859375)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M0,69.55999755859375 C0,69.55999755859375 2.413650008747936e-7,-69.55999755859375 2.413650008747936e-7,-69.55999755859375"></path></g></g><g transform="matrix(1,0,0,1,128.2689971923828,74.89600372314453)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M20.014999389648438,20.014999389648438 C20.014999389648438,20.014999389648438 -20.014999389648438,-20.014999389648438 -20.014999389648438,-20.014999389648438"></path></g></g><g transform="matrix(1,0,0,1,301.7309875488281,74.89600372314453)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M-20.014999389648438,20.014999389648438 C-20.014999389648438,20.014999389648438 20.014999389648438,-20.014999389648438 20.014999389648438,-20.014999389648438"></path></g></g><g transform="matrix(1,0,0,1,301.7309875488281,194.98500061035156)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M-20.014999389648438,-20.014999389648438 C-20.014999389648438,-20.014999389648438 20.014999389648438,20.014999389648438 20.014999389648438,20.014999389648438"></path></g></g><g transform="matrix(1,0,0,1,128.2689971923828,194.98500061035156)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="6.02" d=" M20.014999389648438,-20.014999389648438 C20.014999389648438,-20.014999389648438 -20.014999389648438,20.014999389648438 -20.014999389648438,20.014999389648438"></path></g></g></g></g></svg></div></template>
+                                        </lord-icon>
+
+                                    </span>
+                                </span>
+                                <h2>Galería</h2>
+                            </div>
+                            <div class="elementor-container elementor-column-gap-default" style="display:unset;">
+                                <div class="elementor-row">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-421eb902" data-id="421eb902" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+
+                                                <div class="col-md-12 text-center fh5co-heading animate-box">
+                                                    <p style="color: #000; margin-top: 30px;">
+                                                        <i>Hay recuerdos que tenemos grabados en el corazón y que son imborrables, hoy comienza un nuevo viaje, un nuevo camino donde se forjaran nuevos recuerdos, hoy la fantasía se hace realidad. </i>
+                                                    </p>
+                                                </div>
+                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-356aec9e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="356aec9e" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;2774d76&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="elementor-row">
+                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-35b6d594" data-id="35b6d594" data-element_type="column">
+                                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div class="elementor-element elementor-element-65d4ec5f elementor-widget elementor-widget-gallery" data-id="65d4ec5f" data-element_type="widget" data-settings="{&quot;gallery_layout&quot;:&quot;masonry&quot;,&quot;columns&quot;:3,&quot;columns_mobile&quot;:2,&quot;lazyload&quot;:&quot;yes&quot;,&quot;columns_tablet&quot;:2,&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
+                                                                            <div class="elementor-widget-container">
+
+                                                                                <div class="elementor-gallery__container">
+
+
+                                                                                    
+
+                                                                                    <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g1.jpg" data-aos="zoom-in-down" data-aos-duration="2000" target="_blank">
+                                                                                        <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g1.jpg" data-width="1000" data-height="1968" alt=""></div>
+                                                                                        <div class="elementor-gallery-item__overlay"></div>
+                                                                                    </a>
+                                                                                    <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g2.jpg" target="_blank" data-aos="zoom-in-down" data-aos-duration="2000">
+                                                                                        <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g2.jpg" data-width="1350" data-height="1976" alt=""></div>
+                                                                                        <div class="elementor-gallery-item__overlay"></div>
+                                                                                    </a>
+                                                                                    <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g3.jpg" target="_blank" data-aos="zoom-in-down" data-aos-duration="2000">
+                                                                                        <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g3.jpg" data-width="1900" data-height="1468" alt=""></div>
+                                                                                        <div class="elementor-gallery-item__overlay"></div>
+                                                                                    </a>
+
+                                                                                    <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g4.jpg" target="_blank" data-aos="zoom-in-up" data-aos-duration="2000">
+                                                                                        <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g4.jpg" data-width="1300" data-height="1900" alt=""></div>
+                                                                                        <div class="elementor-gallery-item__overlay"></div>
+                                                                                    </a>
+
+                                                                                    <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g5.jpg" target="_blank" data-aos="zoom-in-down" data-aos-duration="2000">
+                                                                                        <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g5.jpg" data-width="1150" data-height="1900" alt=""></div>
+                                                                                        <div class="elementor-gallery-item__overlay"></div>
+                                                                                    </a>
+                                                                                    <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g6.jpg" target="_blank" data-aos="zoom-in-down" data-aos-duration="2000">
+                                                                                        <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g6.jpg" data-width="1600" data-height="1968" alt=""></div>
+                                                                                        <div class="elementor-gallery-item__overlay"></div>
+                                                                                    </a>
+                                                                                    <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g7.jpg" target="_blank" data-aos="zoom-in-up" data-aos-duration="2000">
+                                                                                            <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g7.jpg" data-width="1350" data-height="1976" alt=""></div>
+                                                                                            <div class="elementor-gallery-item__overlay"></div>
+                                                                                        </a>
+                                                                                        <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g8.jpg" target="_blank" data-aos="zoom-in-down" data-aos-duration="2000">
+                                                                                            <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g8.jpg" data-width="1550" data-height="1950" alt=""></div>
+                                                                                            <div class="elementor-gallery-item__overlay"></div>
+                                                                                        </a>
+                                                                                        <a class="e-gallery-item elementor-gallery-item elementor-animated-content aos-init" href="https://hannahdigital.azurewebsites.net/images/Boda_CyA/g9.jpg" target="_blank" data-aos="zoom-in-down" data-aos-duration="2000">
+                                                                                            <div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="../../images/Boda_CyA/g9.jpg" data-width="1400" data-height="1976" alt=""></div>
+                                                                                            <div class="elementor-gallery-item__overlay"></div>
+                                                                                        </a>
+                                                                                 
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div id="fh5co-event" class="fh5co-bg" style="background-image:url(../../images/Boda_CyA/fondoregalo.jpg);height:auto; background-size:cover;@*margin-bottom:25px;*@">
+                    <div class="overlay"></div>
+                    <div class="container" id="MesaRegalos">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading aos-init" data-aos="fade-left">
+
+                                <h2 style="color:#fff;">Mesa de Regalos</h2>
+                                <span class="division2" style="bottom:-2px;">
+                                    <span class="divisionpulso2">
+
+                                        <lord-icon src="https://cdn.lordicon.com/ofwxettw.json" trigger="loop" delay="2000" colors="primary:#fff,secondary:#c5954c" style="width: 60px; height: 60px; margin-top: -20px;"><template shadowrootmode="open"><div class="body ready" style="--lord-icon-primary-base: #ffffff; --lord-icon-secondary-base: #c5954c;"><slot></slot><style>
+                    :host(:not(.current-color)) svg path[fill].primary {
+                        fill: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].primary {
+                        stroke: var(--lord-icon-primary, var(--lord-icon-primary-base, #000));
+                    }
+                
+                    :host(:not(.current-color)) svg path[fill].secondary {
+                        fill: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+        
+                    :host(:not(.current-color)) svg path[stroke].secondary {
+                        stroke: var(--lord-icon-secondary, var(--lord-icon-secondary-base, #000));
+                    }
+                </style><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 430" width="430" height="430" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clippath id="__lottie_element_178"><rect width="430" height="430" x="0" y="0"></rect></clippath><clippath id="__lottie_element_180"><path d="M0,0 L430,0 L430,430 L0,430z"></path></clippath></defs><g clip-path="url(#__lottie_element_178)"><g clip-path="url(#__lottie_element_180)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g transform="matrix(0.8999999761581421,0,0,0.8999999761581421,215,215.00001525878906)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-11.5,6.5)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="14" d=" M-172.93800354003906,-104.93800354003906 C-172.93800354003906,-104.93800354003906 -172.43800354003906,-54.9379997253418 -172.43800354003906,-54.9379997253418 C-172.43800354003906,-54.9379997253418 11.5,-8 11.5,-8 C11.5,-8 194.5,-56 194.5,-56 C194.5,-56 195,-105 195,-105 M195.03399658203125,-105 C195.03399658203125,-105 11,-152.5 11,-152.5 C11,-152.5 -173.03399658203125,-105 -173.03399658203125,-105 C-173.03399658203125,-105 11,-57.5 11,-57.5 C11,-57.5 195.03399658203125,-105 195.03399658203125,-105z"></path></g></g><g transform="matrix(0.8999999761581421,0,0,0.8999999761581421,215,215.00001525878906)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,-11.5,6.5)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="primary" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="14" d=" M170.12399291992188,-48.5 C170.12399291992188,-48.5 12,-9.5 12,-9.5 C12,-9.5 -147.93800354003906,-46.4379997253418 -147.93800354003906,-46.4379997253418 C-147.93800354003906,-46.4379997253418 -147.51956176757812,42.69871139526367 -147.5198516845703,42.700157165527344 C-147.52015686035156,42.70170211791992 -147.05621337890625,141.55935668945312 -147.05499267578125,141.56199645996094 C-147.05325317382812,141.56265258789062 11.90999984741211,189.5 11.90999984741211,189.5 C11.90999984741211,189.5 170.14088439941406,140.5006561279297 170.14300537109375,140.5 C170.14398193359375,140.4974365234375 170.1339569091797,43.495704650878906 170.1337127685547,43.494140625 C170.1334686279297,43.49263381958008 170.12399291992188,-48.5 170.12399291992188,-48.5z M11.75,-10.187999725341797 C11.750481605529785,-10.186307907104492 11.824556350708008,65.8190689086914 11.824485778808594,65.82070922851562 C11.82438850402832,65.82295989990234 11.944999694824219,189.18800354003906 11.944999694824219,189.18800354003906"></path></g></g><g transform="matrix(0.8999999761581421,0,0,0.8999999761581421,215,215.00001525878906)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" class="secondary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="14" d=" M-87.74199676513672,169.72206115722656 C-87.74199676513672,169.72206115722656 -87.48065948486328,69.53730773925781 -87.48068237304688,69.53414916992188 C-87.48070526123047,69.5309829711914 -87.27400207519531,-22.75 -87.27400207519531,-22.75 C-87.27400207519531,-22.75 -102.13700103759766,-27 -102.13700103759766,-27 C-102.13700103759766,-27 -102,-74 -102,-74 C-102,-74 0,-107.30400085449219 0,-107.30400085449219 M87.58799743652344,169.72206115722656 C87.58799743652344,169.72206115722656 87.24178314208984,63.507667541503906 87.24177551269531,63.50508499145508 C87.24176025390625,63.502498626708984 86.99700164794922,-23.75 86.99700164794922,-23.75 C86.99700164794922,-23.75 101.86299896240234,-28.5 101.86299896240234,-28.5 C101.86299896240234,-28.5 102,-74 102,-74 C102,-74 0,-107.19599914550781 0,-107.19599914550781"></path></g></g><g transform="matrix(0.8999999761581421,0,0,0.8999999761581421,214.09999084472656,211.40000915527344)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" class="secondary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="14" d=" M1.4789999723434448,-105.14399719238281 C-236,-138.01300048828125 -48.645999908447266,-304.00201416015625 3.944000005722046,-102.67900085449219"></path></g></g><g transform="matrix(0.8999999761581421,0,0,0.8999999761581421,213.7508087158203,211.40000915527344)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" class="secondary" stroke="rgb(197,148,75)" stroke-opacity="1" stroke-width="14" d=" M4.415999889373779,-105.14399719238281 C238.94200134277344,-138.01300048828125 53.917999267578125,-304.00201416015625 1.9819999933242798,-102.67900085449219"></path></g></g></g></g></svg></div></template>
+                                        </lord-icon>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="display-t">
+                            <div class="display-tc">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div class="col-md-12 col-sm-12 text-center">
+                                        <div class="event-wrap aos-init" data-aos="zoom-out-down">
+                                            <span style="color:#fff" class="animate-box"> El regalo es opcional</span>
+                                            <h3 style="color:#fff" class="animate-box">la asistencia es obligatoria</h3>
+
+                                            <p>Su presencia es el mayor regalo, pero si desean hacernos un obsequio, todo lo que venga de su corazón es bien recibido, por eso ponemos a su disposición el enlace a nuestra mesa de regalos.</p>   
+                                            
+                                            
+
+                                            
+
+                                            
+                                            
+
+                                            
+
+                                            <img src="css/liverpool.png" style="width: 250px;" class="animate-box">
+                                                <br><p class="animate-box"> Evento: 51476724</p>
+                                                <button type="button" onclick="javascript:IrMesaRegalos(&#39;1&#39;,&#39;51476724&#39;)" class="btn btn-md btn-success animate-box" style=" font-weight: 500;"><i class="icon-shopping-cart" style="font-weight: 500;"></i> Consultar Mesa</button>
+                                                <br><br>
+                                            
+                                            
+                                            
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function IrMesaRegalos(id, mesa) {
+                        switch (id) {
+
+                            case "1":
+                                var url = "https://mesaderegalos.liverpool.com.mx/milistaderegalos/" + mesa;
+                                window.open(url, "Mesa");
+                                break;
+                            case "2":
+                                var url = "https://www.amazon.com.mx/wedding/registry/1H8R1J0U9N80F";
+                                window.open(url, "Mesa");
+                                break;
+                            case "3":
+                                var url = "https://www.sears.com.mx/Mesa-de-Regalos/24183/te-invito-a-mi-boda-jacqueline-mercedes-jesus-omar";
+                                window.open(url, "Mesa");
+                                break;
+                        }
+                    }
+                </script>
+                
+                
+                
+
+                
+                
+                <div id="fh5co-started" class="fh5co-bg" style="background-image: url(../../images/Boda_CyA/fondoasiste.jpg);">
+                    <div class="overlay"></div>
+                    <div class="container" id="Confirmacion">
+                        <div class="row animate-box">
+                            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading aos-init" data-aos="zoom-out-down">
+                                <h2>Confirma tu asistencia</h2>
+                                
+
+                            </div>
+                        </div>
+                        <div class="row animate-box">
+                            <div class="col-md-10 col-md-offset-1">
+                                <form class="form-inline">
+
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group @*animate-box*@ aos-init" data-aos="zoom-out-up">
+                                            <label for="code" class="sr-only">Código de invitación</label>
+                                            <input type="text" class="form-control" id="code" name="code" placeholder="Código de invitación">
+                                        </div>
+                                    </div>
+                                    <script>
+                                document.getElementById("code").value = "C88758";
+
+                                    </script>
+                                    <div class="col-md-3 col-sm-3 aos-init aos-animate" id="btnConfirma" data-aos="fade-right" style="display: none;">
+                                        <a href="javascript: validar(0)" onclick=""><div class="btn btn-default btn-block" style="padding-top: 15px;  font-weight: 500;" onclick="">Confirmar</div></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 aos-init" data-aos="fade-left">
+                                        <a href="https://hannahdigital.azurewebsites.net/Boda_CyA?c=C88758#Pases" onclick="return validar(1)"><div class="btn btn-default btn-block" style="padding-top: 15px;  font-weight: 500;" onclick="">Pases</div></a>
+                                    </div>
+                                </form>
+
+                            </div>
+
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                                
+                                <p style="color:#fff;font-weight:500;text-shadow:2px 2px 2px #000;">Por cuestiones de logística tienes hasta el <b style="color: #f5dc1b;">22 de Septiembre del 2024</b> para confirmar tu asistencia.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="fh5co-footer" role="contentinfo" style="background-image:url(css/fondoportada.jpg);background-size:cover;background-position:center center;">
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-md-12 text-center">
+                    <p style="color: #c5954c; ">
+                        <small class="block">© Emesedev 2025.</small></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+
+        (function ($) {
+
+            $("#logoFade").fadeIn(8000);
+
+        })(jQuery);
+
+    </script>
+    <script>
+        var isSafari = navigator.vendor;
+        if (isSafari == "Apple Computer, Inc.") {
+
+            //document.getElementById("paralax").style.display = "none";
+
+
+            cuteAlert({
+                type: "success",
+                title: "Música de fondo",
+                message: "Esta invitación cuenta con música de fondo.",
+                confirmText: "Activar Música",
+                cancelText: "Desactivar Música"
+            }).then((e) => {
+                if (e == "ok") {
+                    document.getElementById("bgAudio").play();
+                }
+            })
+        }
+    </script>
+    
+
+    <div class="gototop js-top active" style="width:100%;">
+        <a href="https://hannahdigital.azurewebsites.net/Boda_CyA?c=C88758#" class="js-gotop" style="float:right"><i class="icon-arrow-up"></i></a>
+        <a href="javascript:Automatico()" style="float:left;margin-left:40px;"><i class="icon-arrow-down"></i></a>
+    </div>
+
+    <script>
+        function Automatico() {
+            $("html,body").animate({ scrollTop: 50000 }, 2000000);
+            $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove', function (e) {
+                if (e.which > 0 || e.type == "mousedown" || e.type == "mousewheel" || e.type == "touchmove") {
+                    $("html,body").stop();
+                }
+
+            });
+        }
+    </script>
+    <script src="css/wid.js.descarga" id="widjs-js"></script>
+    <div class="gototop js-top active" style="width:100%;">
+        <a href="https://hannahdigital.azurewebsites.net/Boda_CyA?c=C88758#" class="js-gotop" style="float:right"><i class="icon-arrow-up"></i></a>
+        <a href="javascript:Automatico()" style="float:left;margin-left:40px;"><i class="icon-arrow-down"></i></a>
+    </div>
+
+    <script>
+        function Automatico() {
+            $("html,body").animate({ scrollTop: 50000 }, 2000000);
+            $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove', function (e) {
+                if (e.which > 0 || e.type == "mousedown" || e.type == "mousewheel" || e.type == "touchmove") {
+                    $("html,body").stop();
+                }
+
+            });
+        }
+    </script>
+
+    <script src="css/jquery.min(2).js.descarga"></script>
+    <script src="css/jquery.easing.1.3.js.descarga"></script>
+    <script src="css/bootstrap.min.js.descarga"></script>
+    <script src="css/jquery.waypoints.min.js.descarga"></script>
+    <script src="css/owl.carousel.min.js.descarga"></script>
+    <script src="css/jquery.countTo.js.descarga"></script>
+    <script src="css/jquery.stellar.min.js.descarga"></script>
+    <script src="css/jquery.magnific-popup.min.js.descarga"></script>
+    <script src="css/magnific-popup-options.js.descarga"></script>
+    <script src="css/simplyCountdown.js.descarga"></script>
+    <script src="css/main.js.descarga"></script>
+
+    <script>
+        var flimite = new Date(new Date('September 22, 2024 23:50:00'));
+        var fhoy = new Date();
+        if (fhoy >= flimite) {
+            $("#btnConfirma").hide();
+        }
+
+
+        var d = new Date(new Date('October 12, 2024 12:00:00'));
+
+        // default example
+        simplyCountdown('.simply-countdown-one', {
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            hours: d.getHours(),
+            minutes: d.getMinutes(),
+            seconds: d.getSeconds()
+        });
+
+        //jQuery example
+        $('#simply-countdown-losange').simplyCountdown({
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            hours: d.getHours(),
+            minutes: d.getMinutes(),
+            seconds: d.getSeconds(),
+            enableUtc: false
+        });
+
+
+    </script>
+    
+    <script>
+        (function () {
+            // page scroll bind
+            $(window).on('scroll', onScroll);
+            // onScroll();
+
+        })();
+
+        function log(msg) {
+            $('.log').html(msg);
+        }
+
+        function onScroll() {
+            let wst = $(window).scrollTop(),
+                dh = $(document).height(),
+                wh = $(window).height();
+
+            let scrollPercent = (wst / (dh - wh)) * 100;
+
+            $('.parrallax').each((i, e) => {
+                let zoom = $(e).attr('data-zoom');
+                let variant = ((+zoom) * scrollPercent / 60);
+                let bgSize = `${100 + variant}%`;
+
+                log(bgSize);
+
+                $(e).css('background-size', bgSize);
+            });
+
+        }
+
+    </script>
+
+    <script>
+
+        const scrollElements = document.querySelectorAll(".js-scroll");
+
+        const elementInView = (el, dividend = 1) => {
+            const elementTop = el.getBoundingClientRect().top;
+
+            return (
+                elementTop <=
+                (window.innerHeight || document.documentElement.clientHeight) / dividend
+            );
+        };
+
+        const elementOutofView = (el) => {
+            const elementTop = el.getBoundingClientRect().top;
+
+            return (
+                elementTop > (window.innerHeight || document.documentElement.clientHeight)
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add("scrolled");
+        };
+
+        const hideScrollElement = (element) => {
+            element.classList.remove("scrolled");
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 1.25)) {
+                    displayScrollElement(el);
+                } else if (elementOutofView(el)) {
+                    hideScrollElement(el)
+                }
+            })
+        }
+
+        window.addEventListener("scroll", () => {
+            handleScrollAnimation();
+        });
+    </script>
+    <script src="css/ritcuqlt.js.descarga"></script>
+
+    <link rel="stylesheet" id="elementor-gallery-css" href="css/e-gallery.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="e-animations-css" href="css/animations.min.css" type="text/css" media="all">
+    <script type="text/javascript" src="css/dynamic-conditions-public.js.descarga" id="dynamic-conditions-js"></script>
+    <script type="text/javascript" src="css/e-gallery.min.js.descarga" id="elementor-gallery-js"></script>
+    <script type="text/javascript" src="css/webpack-pro.runtime.min.js.descarga" id="elementor-pro-webpack-runtime-js"></script>
+    <script type="text/javascript" src="css/webpack.runtime.min.js.descarga" id="elementor-webpack-runtime-js"></script>
+    <script type="text/javascript" src="css/frontend-modules.min.js.descarga" id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript" src="css/hooks.min.js.descarga" id="wp-hooks-js"></script>
+    <script type="text/javascript" src="css/i18n.min.js.descarga" id="wp-i18n-js"></script>
+    <script type="text/javascript" id="elementor-pro-frontend-js-before">
+        var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/inv.entodaocasion.com\/wp-admin\/admin-ajax.php", "nonce": "82c3a0d8f5", "urls": { "assets": "https:\/\/inv.entodaocasion.com\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/inv.entodaocasion.com\/wp-json\/" }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "es_MX", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/inv.entodaocasion.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+    </script>
+    <script type="text/javascript" src="css/frontend.min.js.descarga" id="elementor-pro-frontend-js"></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Compartir en Facebook", "shareOnTwitter": "Compartir en Twitter", "pinIt": "Fijarlo", "download": "Descargar", "downloadImage": "Descargar imagen", "fullscreen": "Pantalla completa", "zoom": "Zoom", "share": "Compartir", "playVideo": "Reproducir video", "previous": "Previo", "next": "Siguiente", "close": "Cerrar" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "M\u00f3vil", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "M\u00f3vil grande", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tableta", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tableta grande", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Pantalla grande", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.6.5", "is_static": false, "experimentalFeatures": { "e_import_export": true, "e_hidden_wordpress_widgets": true, "theme_builder_v2": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true, "page-transitions": true, "notes": true, "form-submissions": true, "e_scroll_snap": true }, "urls": { "assets": "https:\/\/inv.entodaocasion.com\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [], "dynamicooo": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"]/*, "global_image_lightbox": "no", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 8746, "title": "Ejemplo%20VIP%20Nova%20-%20Invitaciones", "excerpt": "", "featuredImage": false*/ } };
+    </script>
+    <script type="text/javascript" src="css/frontend.min(1).js.descarga" id="elementor-frontend-js"></script>
+    <script type="text/javascript" src="css/preloaded-elements-handlers.min.js.descarga" id="pro-preloaded-elements-handlers-js"></script>
+    <script type="text/javascript" src="css/jet-elements.min.js.descarga" id="jet-elements-js"></script>
+    <script src="css/aos.js.descarga"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+<div>
+    <template shadowrootmode="closed">
+        <div>
+            <main><div class="sc-1uwbbvd-0 cTwtgP"></div></main>
+                <style data-styled="active" data-styled-version="6.1.12"></style>
+        </div>
+    </template>
+</div>
+</html>
